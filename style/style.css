@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&display=swap');
+
+@font-face {
+   font-family: Marcellus, sans-serif;
+   src: url('Marcellus-Regular.ttf');
+}
+* {
+   font-family: Marcellus, sans-serif;
+}
+body {
+   background-color: rgb(219, 219, 219);
+   margin: 0 auto;
+}
+a {
+   text-decoration: none;
+}
+button {
+   cursor: pointer;
+}
+.header {
+   width: 100%;
+   background: #000000;
+   display: flex;
+   justify-content: center;
+}
+.inner_content {
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+}
+.box {
+   width: 30%;
+   min-height: 105px;
+   display: flex;
+}
+.box a {
+   width: 30%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 0px;
+   text-align: center;
+   color: #ffffff;
+}
+.inner_logo {
+   align-items: center;
+}
+.logo {
+   width: 80px;
+   height: 80px;
+}
+.nav_menu {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 30%;
+}
+.nav_menu a {
+   display: flex;
+   flex-direction: column;
+   font-family: Mulish;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #ffffff;
+   opacity: 1;
+}
+.line {
+   margin-top: 5px;
+   width: 100%;
+   height: 2px;
+   opacity: 0;
+   transition: .3s;
+}
+.nav_menu a:hover .line {
+   opacity: 1;
+}
+.icons {
+   width: 30%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.icons a {
+   display: flex;
+   width: 16%;
+}
+.second-icon {
+   justify-content: center;
+}
+.icons a:nth-child(3) {
+   justify-content: flex-end;
+}
+
+/*Main content*/
+.my-main {
+   width: 100%;
+   height: 750px;
+   display: flex;
+   justify-content: flex-end;
+   background-color: #000;
+}
+.left-content {
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   width: 40%;
+   height: 100%;
+   background: #000;
+}
+.my-topic {
+   display: flex;
+   /* justify-content: center; */
+   white-space: nowrap;
+   width: 532px;
+   height: 161px;
+   font-family: Marcellus;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 80px;
+   line-height: 70px;
+   color: #fff;
+   font-size: 50px;
+   text-align: center;
+}
+.content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 60%;
+}
+.content span {
+   font-family: Mulish, sans-serif;
+   color: #ffffff;
+}
+.year {
+   width: 38.84px;
+   height: 10px;
+
+   font-family: Mulish;
+   font-style: bold;
+   font-weight: 80px;
+   font-size: 16px;
+   line-height: 10px;
+}
+.age {
+   width: 59.75px;
+   height: 24px;
+   text-align: center;
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+}
+.age p {
+   width: 55px;
+   height: 20px;
+   border-radius: 50px;
+   background-color: #000;
+}
+.time {
+   width: 79.67px;
+   height: 10px;
+   font-family: Mulish;
+   font-style: normal;
+   font-weight: 80px;
+   font-size: 16px;
+   line-height: 10px;
+}
+.rating {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 79.67px;
+
+   font-family: Mulish;
+   font-style: normal;
+   font-weight: 80px;
+   font-size: 16px;
+   line-height: 10px;   
+}
+.rating img {
+   width: 16px;
+   height: 15px;
+   margin-left: 5px;
+}
+.text {
+   width: 507px;
+   height: 112px;
+   font-family: Mulish;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   color: #C2C2C2;
+}
+.buttons {
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+   color: #fff;
+}
+.button_watch {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   width: 141px;
+   height: 50px;
+   background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+   box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+   border-radius: 100px;
+}
+.button_info { 
+   text-align: center;
+   width: 195px;
+   height: 50px;
+   top: 610px;
+   background: #ffffff;
+   border-radius: 100px;
+}
+.right-content {
+   width: 55%;
+   height: 100%;
+   background: url('../image/justice-league.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: local;
+}
+
+/*Второй Сектор*/
+
+.section-two {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   background-color: #000;
+}
+
+.up-content_title {
+   display: flex;
+   align-items: flex-start;
+   width: 90%;
+   color: #fff;
+}
+.up-content_title {
+   display: flex;
+   align-items: center;
+   margin: 10px 0 10px 0;
+}
+.line-tv_shows {
+   display: flex;
+   justify-content: start;
+   width: 7px;
+   height: 30px;
+   margin-right: 10px;
+   background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+   border-radius: 50px;
+}
+.images_one {
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+
+}
+.images_one img{
+   border-radius: 20px;
+}
+
+/* Третий сектор */
+.section-three {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   background-color: #000;
+}
+.down-content_title {
+   display: flex;
+   width: 90%;
+   color: #fff;
+   margin: 10px;
+}
+.down-content_title span {
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+}
+.line-movie {
+   display: flex;
+   justify-content: start;
+   width: 7px;
+   height: 30px;
+   background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+   border-radius: 50px;
+}
+.images_two {
+   display: flex;
+   width: 90%;
+   justify-content: space-between;
+}
+.images_two img {
+   border-radius: 20px; 
+}
+.my-button {
+   display: flex;
+   margin: 15px;
+   width: 90%;
+   background-color: #000;
+}
+.see-more {
+   display: flex;
+   width: 141px;
+   height: 50px;
+   background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+   box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+   border-radius: 100px;
+}
+.see-more p {
+   display: flex;
+   justify-content: center;
+   width: 200px;
+}
+
+/* Четвертый сектор */
+.section-four {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   background-color: #000000;
+}
+.inner_container {
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+}
+.three_title {
+   display: flex;
+   justify-content: space-between;
+   width: 12%;
+   align-items: center;
+   color: #fff;
+   padding: 10px 0 10px;
+}
+.popular_genres {
+   height: 9px;
+   width: 35px;
+   background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+   border-radius: 50px;
+   transform: rotate(-90deg);
+}
+.background {
+   display: flex;
+   flex-direction: column;
+}
+.upper-background {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin: 10px;
+}
+.background-one {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 340px;
+   height: 200px;
+   background: linear-gradient(109.31deg, #FD093F 2.4%, #F383F1 100%);
+   border-radius: 20px;
+}
+.background-two {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 340px;
+   height: 200px;
+   background: linear-gradient(114.5deg, #0FFFDA 2.22%, #3CDB77 68.84%);
+   border-radius: 20px;
+}
+.background-three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 340px;
+   height: 200px;
+   background: linear-gradient(109.31deg, #B936FF 2.4%, #57DEDA 100%);
+   border-radius: 20px;
+}
+.background-four {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 340px;
+   height: 200px;
+   background: linear-gradient(109.31deg, #FD093F 2.4%, #FB1378 2.41%, #FCCB1A 100%);
+   border-radius: 20px;
+}
+.lower-background {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin: 10px;
+}
+.background-five {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 340px;
+   height: 200px;
+   background: linear-gradient(109.31deg, #FF6472 2.4%, #FDA75D 100%);
+   border-radius: 20px;
+}
+.background-six {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 340px;
+   height: 200px;
+   background: linear-gradient(110.16deg, #13547A 2.37%, #80D0C7 96.77%);
+   border-radius: 20px;
+}
+.background-seven {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 340px;
+   height: 200px;
+   background: linear-gradient(109.93deg, #FFF77B 2.37%, #FFBF42 50%);
+   border-radius: 20px;
+}
+.background-eight {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 340px;
+   height: 200px;
+   background: linear-gradient(109.31deg, #1FA2FF 2.4%, #1FA2FF 2.41%, #1F535C 97.46%);
+   border-radius: 20px;
+}
+
+/* Пятый сектор */
+.section-five {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   color: #fff;
+   background-color: #000000;
+}
+.inner_content {
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+}
+.four_title {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 16%;
+   margin: 10px;
+}
+.popular_actors {
+   height: 40px;
+   width: 10px;
+   background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+   border-radius: 50px;
+}
+.content_actor {
+   display: flex;
+   justify-content: space-between;
+}
+.content_actor img {
+   border-radius: 100%;
+}
+.content_actor p {
+   display: flex;
+   align-items: center; 
+   flex-direction: column;
+}
+.content_actor span {
+   padding: 10px 0 0 0;
+}
+
+/* Шестой сектор */
+.section-six {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   background-color: #000000;
+}
+.section-seven_img {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 0 70px 0;
+}
+.up_img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 95%;
+   margin: 70px 70px;
+}
+.up_img img {
+   width: 100%;
+}
+
+/* Последний сектор */
+.last-section {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   background-color: #101012;
+   color: #fff;
+}
+.logotype {
+   width: 10%;
+   display: flex;
+   align-items: center;
+}
+.logotype span {
+   font-size: 30px;
+}
+.my-link {
+   display: flex;
+   color: #fff;
+}
+.my-link li {
+   list-style-type: none;
+}
+.my-link a {
+   color: #fff;
+}
+.my-link ul li{
+   padding: 10px 10px 10px 10px;
+}
+

@@ -1,0 +1,106 @@
+/* @media screen and (max-width: 600px) {
+    .inner_logo {
+        display: flex;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav_menu {
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+    } 
+    .nav_menu a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 375px) {
+    .my-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-content {
+        width: 100%;
+    }
+    .left-content h1 {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        font-size: 18px;
+    }
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .left-content p {
+        display: flex;
+        width: 100%;
+        font-size: 16px;
+    }
+    .buttons {
+        width: 100%;
+        margin: 10px 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+    .right-content {
+        width: 100%;
+    }
+}
+
+@media (min-width: 375px) {
+    .images_one {
+        flex-direction: column;
+    }
+    .images_two {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 375px) {
+    .background {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 375px) {
+    .content_actor {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 375px) { 
+    .section-six {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 375px) {
+    .section-seven_img {
+        width: 100%; 
+    }
+    .down_img {
+        width: 80%;
+    }
+}
+
+@media (min-width: 375px) {
+    .last-section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logotype {
+        display: flex;
+        justify-content: center;
+    }
+    .my-link {
+        display: flex;
+        flex-direction: column;
+    }
+} */
